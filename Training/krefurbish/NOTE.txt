@@ -118,3 +118,30 @@ Shallow Comparison (SC)
 
       var ab_eq = (a === b) => false // different objects
       var ac_eq = (a === c) => true // same object
+
+Render props
+  The term "render prop" refers to a technique for sharing code 
+  between React components using a prop whose value is a function.
+  A component with a render prop takes a function that returns a React element
+  and calls it instead of implementing its own render logic.
+  
+Context
+  Context provides a way to pass data through the component tree 
+  without having to pass props down manually at every level.
+
+  Provider:
+    Every Context object comes with a Provider React component 
+    that allows consuming components to subscribe to context changes.
+    For example:
+      <MyContext.Provider value={/* some value */}>
+        <Foo />
+      </MyContext.Provider>
+
+  Consumer:
+    A React component that subscribes to context changes.
+    Using this component lets you subscribe to a context within a function component.
+    For example:
+      <MyContext.Consumer>
+        {value => /* render something based on the context value */}
+      </MyContext.Consumer>
+  
