@@ -13,20 +13,20 @@ const SlideShow = () => {
           <div className="carousel-inner">
             <div className="carousel-item active" style={{ backgroundImage: "url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')" }}>
               <div className="carousel-caption">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h5>Refurbish and Reuse</h5>
+                <p>Extend the life of electronic devices through refurbishment and contribute to a sustainable future.</p>
               </div>
             </div>
             <div className="carousel-item" style={{ backgroundImage: "url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')" }}>
               <div className="carousel-caption">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+                <h5>Responsible E-Waste Recycling</h5>
+                <p>Preserve the environment by establishing specific recycling programs for electronic waste.</p>
               </div>
             </div>
             <div className="carousel-item" style={{ backgroundImage: "url('https://source.unsplash.com/lHGeqh3XhRY/1920x1080')" }}>
               <div className="carousel-caption">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+                <h5>Environmental Impact Assessment</h5>
+                <p>Measuring the positive environmental outcomes of refurbishing and recycling electronic devices.</p>
               </div>
             </div>
           </div>

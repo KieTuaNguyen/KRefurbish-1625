@@ -99,7 +99,7 @@ const Update = () => {
       <form className="mt-4">
         <div className="row">
           <div className="mb-3 col-lg-6 col-md-6 col-12">
-            <label className="form-label">Question 01</label>
+            <label className="form-label">Question 01: How often do you dispose of electronic devices such as smartphones, laptops, or tablets?</label>
             <input
               type="text"
               name="question01"
@@ -109,7 +109,7 @@ const Update = () => {
               id="" />
           </div>
           <div className="mb-3 col-lg-6 col-md-6 col-12">
-            <label className="form-label">Question 02</label>
+            <label className="form-label">Question 02: Have you ever recycled or disposed of e-waste through designated e-waste recycling programs?</label>
             <input
               type="text"
               name="question02"
@@ -119,7 +119,7 @@ const Update = () => {
               id="" />
           </div>
           <div className="mb-3 col-lg-6 col-md-6 col-12">
-            <label className="form-label">Question 03</label>
+            <label className="form-label">Question 03: What factors influence your decision to recycle or dispose of e-waste properly?</label>
             <input
               type="text"
               name="question03"
@@ -129,7 +129,7 @@ const Update = () => {
               id="" />
           </div>
           <div className="mb-3 col-lg-6 col-md-6 col-12">
-            <label className="form-label">Question 04</label>
+            <label className="form-label">Question 04: Would you be willing to pay a small fee or contribute to a fund to support proper e-waste disposal and recycling initiatives?</label>
             <input
               type="text"
               name="question04"
@@ -139,9 +139,9 @@ const Update = () => {
               id="" />
           </div>
           <div className="mb-3 col-lg-6 col-md-6 col-12">
-            <label className="form-label">Question 05</label>
+            <label className="form-label">Question 05: How much would you be willing to pay to a fund to support proper e-waste disposal and recycling initiatives? ($)</label>
             <input
-              type="text"
+              type="number"
               name="question05"
               className="form-control"
               onChange={setData}
@@ -149,7 +149,7 @@ const Update = () => {
               id="" />
           </div>
           <div className="mb-3 col-lg-6 col-md-6 col-12">
-            <label className="form-label">Question 06</label>
+            <label className="form-label">Question 06: Do you believe that awareness campaigns about e-waste recycling can effectively change people's behaviors and encourage proper disposal practices?</label>
             <input
               type="text"
               name="question06"

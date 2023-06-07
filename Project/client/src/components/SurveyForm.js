@@ -140,9 +140,9 @@ const SurveyForm = () => {
               id="" />
           </div>
           <div className="mb-3 col-lg-6 col-md-6 col-12">
-            <label className="form-label">Q5: How much would you be willing to pay to a fund to support proper e-waste disposal and recycling initiatives?</label>
+            <label className="form-label">Q5: How much would you be willing to pay to a fund to support proper e-waste disposal and recycling initiatives? ($)</label>
             <input
-              type="text"
+              type="number"
               name="question05"
               className="form-control"
               onChange={setData}

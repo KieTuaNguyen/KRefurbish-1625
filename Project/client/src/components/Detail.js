@@ -44,63 +44,77 @@ const Detail = () => {
           <Card sx={{ minWidth: 275 }}>
             <CardContent>
               <div className="row">
-                <div className="left_view col-lg-6 col-md-6 col-12">
-                  <h5 className='mt-3'>
-                    Q1: How often do you dispose of electronic devices such as smartphones, laptops, or tablets? &nbsp;
-                    <br />
-                    <span style={{ fontWeight: 400 }}>
-                      {getUserData.question01}
-                    </span>
-                  </h5>
-                  <h5 className='mt-3'>
-                    Q2: Have you ever recycled or disposed of e-waste through designated e-waste recycling programs? &nbsp;
-                    <br />
-                    <span style={{ fontWeight: 400 }}>
-                      {getUserData.question02}
-                    </span>
-                  </h5>
-                  <h5 className='mt-3'>
-                    Q3: What factors influence your decision to recycle or dispose of e-waste properly? &nbsp;
-                    <br />
-                    <span style={{ fontWeight: 400 }}>
-                      {getUserData.question03}
-                    </span>
-                  </h5>
+                <div className="mb-3 col-lg-6 col-md-6 col-12">
+                  <label className="form-label">Question 01: How often do you dispose of electronic devices such as smartphones, laptops, or tablets?</label>
+                  <input
+                    type="text"
+                    name="question01"
+                    className="form-control"
+                    value={getUserData.question01}
+                    disabled
+                    id="" />
                 </div>
-
-                <div className="right_view col-lg-6 col-md-6 col-12">
-                  <h5 className='mt-3'>
-                    Q4: Would you be willing to pay a small fee or contribute to a fund to support proper e-waste disposal and recycling initiatives?
-                    <br />
-                    <span style={{ fontWeight: 400 }}>
-                      {getUserData.question04}
-                    </span>
-                  </h5>
-                  <h5 className='mt-3'>
-                    Q5: How much would you be willing to pay to a fund to support proper e-waste disposal and recycling initiatives? &nbsp;
-                    <br />
-                    <span style={{ fontWeight: 400 }}>
-                      {getUserData.question05}
-                    </span>
-                  </h5>
-                  <h5 className='mt-3'>
-                    Q6: Do you believe that awareness campaigns about e-waste recycling can effectively change people's behaviors and encourage proper disposal practices? &nbsp;
-                    <br />
-                    <span style={{ fontWeight: 400 }}>
-                      {getUserData.question06}
-                    </span>
-                  </h5>
+                <div className="mb-3 col-lg-6 col-md-6 col-12">
+                  <label className="form-label">Question 02: Have you ever recycled or disposed of e-waste through designated e-waste recycling programs?</label>
+                  <input
+                    type="text"
+                    name="question02"
+                    className="form-control"
+                    value={getUserData.question02}
+                    disabled
+                    id="" />
                 </div>
-
-                <div className="col-12">
-                  <h5 className='mt-3'>
-                    Feedback: &nbsp;
-                    <span style={{ fontWeight: 400 }}>
-                      {getUserData.feedback}
-                    </span>
-                  </h5>
+                <div className="mb-3 col-lg-6 col-md-6 col-12">
+                  <label className="form-label">Question 03: What factors influence your decision to recycle or dispose of e-waste properly?</label>
+                  <input
+                    type="text"
+                    name="question03"
+                    className="form-control"
+                    value={getUserData.question03}
+                    disabled
+                    id="" />
                 </div>
-
+                <div className="mb-3 col-lg-6 col-md-6 col-12">
+                  <label className="form-label">Question 04: Would you be willing to pay a small fee or contribute to a fund to support proper e-waste disposal and recycling initiatives?</label>
+                  <input
+                    type="text"
+                    name="question04"
+                    className="form-control"
+                    value={getUserData.question04}
+                    disabled
+                    id="" />
+                </div>
+                <div className="mb-3 col-lg-6 col-md-6 col-12">
+                  <label className="form-label">Question 05: How much would you be willing to pay to a fund to support proper e-waste disposal and recycling initiatives? ($)</label>
+                  <input
+                    type="number"
+                    name="question05"
+                    className="form-control"
+                    value={getUserData.question05}
+                    disabled
+                    id="" />
+                </div>
+                <div className="mb-3 col-lg-6 col-md-6 col-12">
+                  <label className="form-label">Question 06: Do you believe that awareness campaigns about e-waste recycling can effectively change people's behaviors and encourage proper disposal practices?</label>
+                  <input
+                    type="text"
+                    name="question06"
+                    className="form-control"
+                    value={getUserData.question06}
+                    disabled
+                    id="" />
+                </div>
+                <div className="mb-3 col-lg-12 col-md-12 col-12">
+                  <label className="form-label">Feedback</label>
+                  <textarea
+                    name="feedback"
+                    className="form-control"
+                    value={getUserData.feedback}
+                    cols="30"
+                    rows="10"
+                    disabled
+                  />
+                </div>
               </div>
             </CardContent>
           </Card>
@@ -110,4 +124,4 @@ const Detail = () => {
   )
 }
 
-export default Detail``
+export default Detail

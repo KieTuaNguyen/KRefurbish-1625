@@ -8,7 +8,8 @@ const userSchema = new mongoose.Schema({
   email: {
     type: String,
     required: true,
-    unique: true, // unique email
+    // unique email
+    unique: true,
   },
   question01: {
     type: String,
@@ -27,7 +28,7 @@ const userSchema = new mongoose.Schema({
     required: true,
   },
   question05: {
-    type: String,
+    type: Number,
     required: true,
   },
   question06: {
