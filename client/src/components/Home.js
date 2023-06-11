@@ -226,12 +226,12 @@ const Home = () => {
                 <p>
                   The average amount of money willing to pay: ${Math.round(getAverageAmount())}
                 </p>
-                <p>
+                {/* <p>
                   The maximum amount of money willing to pay: ${getMaxAmount()}
                 </p>
                 <p>
                   The minimum amount of money willing to pay: ${getMinAmount()}
-                </p>
+                </p> */}
                 <NumericBarChart data={numericChartData} />
               </div>
               <hr />
@@ -261,4 +261,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
